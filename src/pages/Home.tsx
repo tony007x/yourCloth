@@ -10,10 +10,11 @@ function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
           style={{ backgroundImage: `url(${'images/bg-landing.jpg'})`,
           filter: 'brightness(0.3)',
-          backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed',
+          maxWidth: '100vw',
+          maxHeight: '100vh',
          }}
         />
 
