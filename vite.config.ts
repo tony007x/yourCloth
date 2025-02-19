@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  preview: {
+    allowedHosts: ['https://yourcloth.tony219y.com'], // เพิ่มโฮสต์ที่ต้องการ
+  },
   resolve: {
     alias: {
       '@': '/src',
