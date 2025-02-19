@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
-    allowedHosts: ['https://yourcloth.tony219y.com'], // เพิ่มโฮสต์ที่ต้องการ
+    allowedHosts: ['yourcloth.tony219y.com'], // เพิ่มโฮสต์ที่ต้องการ
   },
   resolve: {
     alias: {
