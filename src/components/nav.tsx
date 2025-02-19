@@ -17,7 +17,7 @@ function Nav() {
                 <li className="h-fit hover:cursor-pointer hover:text-white/70 duration-300" onClick={()=> navigate('/contact')}>Contact Us</li>
             </ul>
             {/* search and cart */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 max-lg:hidden">
                 <div className={`flex gap-4 ${searchOpen? 'bg-white':'bg-transparent'} p-2`}>
                     {searchOpen &&(
                         <input type="text" placeholder="search" className="text-black pl-2 cursor-pointer border-none outline-none"/>

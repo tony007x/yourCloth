@@ -8,7 +8,13 @@ function Home() {
         {/* ใช้ absolute inset-0 → ทำให้ div พื้นหลัง ขยายเต็มพื้นที่ ของ parent */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
-          style={{ backgroundImage: `url(${'images/bg-landing.jpg'})`, filter: 'brightness(0.3)' }}
+          style={{ backgroundImage: `url(${'images/bg-landing.jpg'})`,
+          filter: 'brightness(0.3)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+         }}
         />
 
         {/* Content */}
