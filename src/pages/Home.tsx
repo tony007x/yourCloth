@@ -59,7 +59,7 @@ function Home() {
         />
         <div className="flex flex-col w-1/3 h-fit z-10 ml-[60%] text-white">
           <div className="flex w-full h-full justify-center items-center">
-            <img src="images/sec3.jpg" alt="sec3" className="bg-cover" />
+          <img src="images/sec3.jpg" alt="sec3" className="bg-cover" loading = "lazy" />
           </div>
           <p className="flex flex-col items-center w-full text-4xl text-center font-Libre py-4 gap-4">
             Explore our exquisite Shirt Collection now!
@@ -88,7 +88,7 @@ function Home() {
             </Button>
           </div>
           <div className="flex w-1/2 border items-center justify-center max-md:w-1/3">
-            <img src="images/sec4.jpg" alt="sec4" className="object-cover max-md:h-full" />
+            <img src="images/sec4.jpg" alt="sec4" className="object-cover max-md:h-full" loading = "lazy"/>
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function Home() {
             }}
           />
           <div className="absolute flex flex-col w-[450px] top-[-50px] gap-4">
-            <img src="images/shirt-3.jpg" alt="sec3" className="bg-cover" />
+            <img src="images/shirt-3.jpg" alt="sec3" className="bg-cover" loading = "lazy"/>
             <h1 className="text-white text-4xl font-Libre ">
               Discover the allure of fashion reinvented!
             </h1>

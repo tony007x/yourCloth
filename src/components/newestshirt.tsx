@@ -44,7 +44,7 @@ return (
                 <div className="flex flex-col w-full items-center group hover:cursor-pointer" onClick={() => {
                     alert('Add to cart')
                 }}>
-                    <img src={item.src} alt={item.theme} className="relative w-[400px] h-[300px] object-cover"/>
+                    <img src={item.src} alt={item.theme} className="relative w-[400px] h-[300px] object-cover" loading = "lazy"/>
                     <ShoppingBasket color='white' className="absolute top-7 right-7 w-10 h-10 bg-black/30 rounded-full p-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <p className="text-sm font-bold text-white/30">{item.theme}</p>
