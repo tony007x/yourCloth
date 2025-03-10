@@ -7,6 +7,12 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			pacifico: ["Pacifico", "cursive"],
+			roboto: ["Roboto"],
+			vibur: ["Vibur"],
+			Libre: ["Libre Baskerville"],
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

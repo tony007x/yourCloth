@@ -8,7 +8,7 @@ function Nav() {
     const [searchOpen, setsearchOpen] = useState<boolean>(false);
 
     return (
-        <div className="fixed flex top-0 w-full h-16 z-50 text-white justify-between px-[65px]">
+        <div className="fixed flex top-0 w-full h-16 z-50 text-white bg-black/30 backdrop-blur-sm justify-between px-[65px] font-roboto uppercase">
             {/* Desktop Menu */}
             <ul className="flex gap-4 items-center max-lg:hidden">
                 <li className="h-fit hover:cursor-pointer hover:text-white/70 duration-300" onClick={()=> navigate('/')}>Home</li>
@@ -28,7 +28,7 @@ function Nav() {
             </div>
 
             {/* Mobile Menu Toggle Button */}
-            <button className="hidden fixed right-8 top-8 max-lg:block z-10" onClick={() => setnavOpen(!navOpen)}>
+            <button className="hidden fixed right-8 top-5 max-lg:block z-10" onClick={() => setnavOpen(!navOpen)}>
                 {navOpen ? <X size={30} /> : <Menu size={30} />}
             </button>
 

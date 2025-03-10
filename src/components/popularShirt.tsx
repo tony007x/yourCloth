@@ -32,9 +32,9 @@ function PopularShirt() {
         }
     ]
   return (
-        <div className="flex flex-col w-full items-center px-[65px] justify-center gap-10">
+        <div className="flex flex-col w-full items-center px-[65px] justify-center gap-10 font-roboto">
 
-            <h1 className="text-2xl font-extralight text-white max-md:pt-10">Popular Shirts</h1>
+            <h1 className="text-2xl font-Libre text-white max-md:pt-10">Popular Shirts</h1>
 
         <div className="grid grid-cols-4 w-full h-fit gap-4 max-lg:grid-cols-2 max-md:grid-cols-1">
             {data.map((item) => (
